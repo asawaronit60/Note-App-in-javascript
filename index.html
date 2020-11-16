@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+
+    <title>my notes app</title>
+</head>
+
+<body>
+    <nav class="bg-dark" id="nav_bar" >
+        <h2 style="float: left;" >My Notes</h2>
+        <div class="mt-2" style="float: right;">
+        <input type="search" id="searchTxt" placeholder="Search">
+        <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+        </nav>
+    <div class="main" id="main">
+
+
+    <h1 class="main_h" style="font-family: Sansita Swashed;">WELCOME TO MY NOTES</h><br>
+  
+            <div class="add_div">
+  <div id="h2" style="font-family :Architects Daughter">ADD A NOTE</div><br>
+                <textarea style="font-size: 20px;" id="new_note" rows="3" placeholder="Type here to add a new note"></textarea><br>
+
+                <button id="add_btn" class="btn btn-primary" style="margin-left: -2px;">Add Note</button>
+     <button class="btn btn-danger" id="delete_all"onClick = "deleteAll()" >Delete All</button>
+            </div>
+            <hr>
+
+            <h3 style="font-size: 25px;">Your Notes</h3>
+            <hr>
+
+        <div class="notes_list" id="notes">
+
+                <!-- <div class=" note_card">
+                    <div class="card_body">
+                        <h5 class="note_title">Note 1</h5>
+                        <p class="card_text">
+                        </p>
+    <button id="index" class="btn btn-danger mt-3" onClick="deleteNote(this.id)"
+            style="margin-bottom: 12px;">
+
+                            Delete Note</button>
+
+                    </div>
+                </div> -->
+
+
+            </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

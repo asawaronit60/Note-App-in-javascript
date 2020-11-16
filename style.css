@@ -1,0 +1,95 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.main_h{
+  color:red;
+}
+
+
+.main{
+text-align: center;
+}
+/* .add_div{
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 700px;
+ margin-bottom: 50px;
+    position: relative;
+    left: 317px;
+    top: 30px;
+} */
+#nav_bar{
+  display: inline-block;
+  width: 100%;
+  color: white;
+}
+#nav_bar div {
+  margin-right: 25px;
+  }
+#nav_bar div input{
+  margin-right: 10px;
+  border-radius: 20px;
+  text-align: center;
+  }
+  #nav_bar div button{
+  width: 90px;
+  padding: unset;
+    }
+#add_btn{
+ 
+  margin: 10px 70px 10px -500px;  
+}
+textarea{
+  font-size: 20px;
+}
+#new_note{
+width: 40rem;
+height: 7rem;
+}
+.main_div{
+border-style: outset;
+border-radius: 2px;
+
+}
+#h2 {
+margin: 20px 10px -20px -500px;
+font-size: 25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+padding: -10px 0px -10px 0px;
+}
+
+.note_card{
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 2rem;
+  display :inline-table;
+  width: 15rem;
+}
+.notes_list
+{ 
+   padding-top:10px ;
+  
+   width: 100%;
+   border: 1px solid white;
+   
+   height: 50rem;
+}
+
+.note_title{
+  
+margin: 2px 0px 2px 0px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text_hover{
+  border: 2px solid blue;
+   box-shadow: 1px 1px 1px 1px; 
+}
+
